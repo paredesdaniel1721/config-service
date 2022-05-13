@@ -10,7 +10,7 @@ spring:
         git:
           default-label: main
           uri: https://github.com/paredesdaniel1721/config-data
-          searchPaths: config-data #config-data
+          searchPaths: service #config-data
   security:
     user:
       name: root
