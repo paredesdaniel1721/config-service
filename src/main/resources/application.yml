@@ -8,9 +8,7 @@ spring:
         git:
           default-label: main
           uri: https://github.com/paredesdaniel1721/config-data.git
-          searchPath: / #config-data
-          #username: ${GIT_USER}
-          #password: ${GIT_PASSWORD}
+          searchPaths: / #config-data
   security:
     user:
       name: root
